@@ -1,0 +1,31 @@
+{
+  "name": "use-debounce",
+  "version": "1.0.0",
+  "description": "A lightweight TypeScript debounce function implementation that fires on the trailing edge, preserving this context and parameters. Ideal for user input events.",
+  "main": "index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjaming61001/use-debounce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benjaming61001/use-debounce/issues"
+  },
+  "homepage": "https://github.com/Benjaming61001/use-debounce#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
+}
