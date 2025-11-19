@@ -1,5 +1,5 @@
 {
-  "name": "use-debounce",
+  "name": "@benjaming61001/use-debounce",
   "version": "1.0.0",
   "description": "A lightweight TypeScript debounce function implementation that fires on the trailing edge, preserving this context and parameters. Ideal for user input events.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
