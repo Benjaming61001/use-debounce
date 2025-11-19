@@ -1,6 +1,6 @@
 {
   "name": "@benjaming61001/use-debounce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight TypeScript debounce function implementation that fires on the trailing edge, preserving this context and parameters. Ideal for user input events.",
   "main": "index.js",
   "module": "dist/index.mjs",
